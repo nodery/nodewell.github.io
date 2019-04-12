@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack:///./src/styles/index.sass"],"names":[],"mappings":"AAAA;EACE,gBAAgB","file":"styles.css","sourcesContent":["body {\n  background: #CCC; }\n"],"sourceRoot":""}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"assets/styles.css","sourceRoot":""}

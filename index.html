@@ -22,7 +22,7 @@
     <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
     
     <link rel="stylesheet" href="/vendors/bootstrap.min.css">
-  <link href="/styles.css?aa3c608020f414cbbf94" rel="stylesheet"></head>
+  <link href="/assets/styles.css?b2869006f786e297a7b2" rel="stylesheet"></head>
   <body>
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -31,8 +31,19 @@
     <header>
       <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand mr-auto" href="#">
-          <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-          nodewell
+          <img
+            class="d-block d-sm-none"
+            src="assets/images/logo.svg"
+            width="auto"
+            height="60"
+            alt="">
+    
+          <img
+            class="d-none d-sm-block"
+            src="assets/images/github-lead.svg"
+            width="auto"
+            height="60"
+            alt="">
         </a>
     
     
@@ -69,11 +80,59 @@
       <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
-    <section>[Projects]</section>
-    <footer>[Footer]</footer>
+    <section class="projects">
+      <div class="container">
+        <h2 class="mb-5">Projects</h2>
+    
+        <ul class="list-unstyled">
+          <li class="media">
+            <img src="..." class="mr-3" alt="...">
+            <div class="media-body">
+              <h5 class="mt-0">Project name</h5>
+              A short summary/description of the project.
+              <a href="https://nodewell.github.io">project link</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <h2>Follow us</h2>
+    
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">[GitHub]</li>
+          <li class="list-group-item">[Twitter]</li>
+        </ul>
+    
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <h3>Footer Header</h3>
+    
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a href="...">[Link 1]</a>
+              </li>
+              <li class="list-group-item">
+                <a href="...">[Link 2]</a>
+              </li>
+              <li class="list-group-item">
+                <a href="...">[Link 3]</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">[Brand]</li>
+          <li class="list-group-item">[Privacy]</li>
+          <li class="list-group-item">[Terms]</li>
+        </ul>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="/vendors/jquery.min.js"></script>
     <script type="text/javascript" src="/vendors/popper.min.js"></script>
     <script type="text/javascript" src="/vendors/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/bundle.js?aa3c608020f414cbbf94"></script></body>
+  <script type="text/javascript" src="/assets/scripts.js?b2869006f786e297a7b2"></script></body>
 </html>
